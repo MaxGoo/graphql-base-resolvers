@@ -1,0 +1,1 @@
+{"version":3,"file":"store-provider.js","sourceRoot":"","sources":["../src/store-provider.ts"],"names":[],"mappings":";;;AAAA,MAAM,aAAa;IACjB,KAAK,CAGD;IAEJ;QACE,IAAI,CAAC,KAAK,GAAG;YACX;gBACE,EAAE,EAAE,GAAG;gBACP,IAAI,EAAE,WAAW;aAClB;YACD;gBACE,EAAE,EAAE,GAAG;gBACP,IAAI,EAAE,gBAAgB;aACvB;SACF,CAAC;IACJ,CAAC;IAED,QAAQ;QACN,OAAO,IAAI,CAAC,KAAK,CAAC;IACpB,CAAC;CACF;AAEQ,sCAAa"}

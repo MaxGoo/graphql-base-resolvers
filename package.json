@@ -1,0 +1,24 @@
+{
+  "name": "apollo-summit-demo",
+  "version": "1.0.0",
+  "description": "A Demo app for the Apollo Summit Presentation '7 Tips for Writing Better Resolvers'",
+  "keywords": [],
+  "author": "Max Gooding",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:old": "node build/old-index.js",
+    "start": "TZ=UTC ts-node-dev --transpile-only --no-notify --inspect=:9289 -- src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "apollo-server-plugin-base": "^3.6.2",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
